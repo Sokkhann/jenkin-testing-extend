@@ -1,3 +1,5 @@
 def call() {
-    echo "Deploying the app..."
+    echo "🚀 Starting deployment..."
+    sh 'echo Running deployment script...'
+    echo "✅ Deployment complete."
 }

@@ -1,3 +1,5 @@
-def call(String name = 'World') {
-    echo "Hello, ${name}! Welcome to Jenkins."
+def call(Map params = [:]) {
+    def name = params.name ?: 'World'
+    def greeting = params.greeting ?: 'Hello'
+    echo "${greeting}, ${name}! Welcome to Jenkins."
 }
