@@ -1,6 +1,6 @@
 def call(Map params = [:]) {
     def message = params.message ?: 'Build completed'
-    def recipient = params.recipient ?: 'default@example.com'
+    def recipient = params.recipient ?: 'sokkhann.pol02@gamil.com'
 
     emailext (
         subject: "Jenkins Notification: ${env.JOB_NAME}",
