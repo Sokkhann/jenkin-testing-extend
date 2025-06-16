@@ -1,0 +1,2 @@
+Hello, this is my first testi with jenkins autumation for deploying
+everytime have a new push in git
