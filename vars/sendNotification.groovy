@@ -13,7 +13,7 @@ URL: ${env.BUILD_URL}
     sh """
     curl -s -X POST https://api.telegram.org/bot${botToken}/sendMessage  \\
     -d chat_id=${chatId} \\
-    -d text="${fullMessage}"
+    -d text="${fullMessage}" \\
     -d parse_mode="HTML"
     """
 }
